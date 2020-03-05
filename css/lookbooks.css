@@ -1,0 +1,23 @@
+.lookbookstest{
+	width:100%;
+}
+.lookbookstest_img{
+	float:left;
+	width:50%;
+}
+.lookbookstest_wenzi{
+	float:right;
+	width:50%;
+	padding:2% 2%;
+	text-align:center;
+}
+.lookbooksvideo{
+	width:100%;
+}
+.milkteaone img{
+	width:100%;
+}
+.milkteaad img{
+	width:100%;
+	padding-bottom:5%;
+}

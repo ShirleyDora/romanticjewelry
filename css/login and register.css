@@ -1,0 +1,146 @@
+﻿body {
+    background-color: #eeeeee;
+    padding-top:70px;
+}
+/*login*/
+.login_box {
+    margin: 0 auto;
+    width: 600px;
+    background-color: #fff;
+    border-radius: 6px;
+}
+.image {
+    width: 600px;
+    height: 100px;
+    padding-top:20px;
+    padding-left:25px;
+}
+.login_dl {
+    height: 310px;
+    background-color: #D5F2F0;
+    font-family: "Arial";
+    border-radius: 6px;
+    padding-top:20px;
+}
+.login_tx { 
+    font-size: 14px;
+    color: #606060;
+    cursor: text;
+    margin: 0 0 20px 20px;
+}
+.login_sr{
+    height:80px;
+    padding-bottom:20px;
+    margin:0 20px;
+    background:url() right center no-repeat;
+}
+.login_textbox {
+    width: 535px;
+    height: 40px;
+    padding: 0 10px;
+    border: 2px solid #cccccc;
+    background-color: #fff;
+    border-radius: 2px;
+}
+.login_text {
+    width: 500px;
+    margin: auto 0;
+    height: 38px;
+    border: none;
+}
+.login_zs {
+
+}
+.login_p {
+    font-size: 16px;
+    font-weight: 700;
+    color: #000;
+    line-height: 20px;
+}
+.login_lg {
+    height: 66px;
+    padding-top: 5px;
+    margin: 0 20px;
+    font-size:16px;
+}
+.login_btnbox {
+    width: 535px;
+    height: 40px;
+    margin: 10px;
+}
+.login_btn {
+    font-weight:500;
+    height:42px;
+    border-radius: 4px;
+    background-color: #505050;
+    color: #fff;
+    font-family: "Arial";
+    font-size: 25px;
+    width: 180px;
+    border: none !important;
+}
+.login_btn:hover {
+    background-color:#303030;
+}
+.login_birth_text {
+    margin: auto 0;
+    height: 38px;
+    border:none;
+}
+/*register*/
+.register_dl {
+    height: 1400px;
+    padding-top: 20px;
+    background-color: #D5F2F0;
+    font-family: "Arial";
+    border-radius: 6px;
+}
+.register_sm{
+    width:560px;
+    height:340px;
+    padding:10px 20px;
+    background-color:rgba(255,255,255,.7);
+}
+/*sidebar*/
+.sidebar {
+    position: fixed;
+    top: 40%;
+    right: 0;
+    width: 100px;
+    color: #55f2f0;
+    background-color: #fff;
+    text-align: center;
+    border-radius: 6px;
+}
+.sidebar_text {
+    line-height: 10px;
+    display: inline-block;
+}
+.sidebar_button {
+    height: 60px;
+    width: 100px;
+    border-radius: 4px;
+    background-color: #65f2f0;
+    color: white;
+    border: none !important;
+}
+.sidebar_button:hover {
+    background-color: #15f2f0
+}
+/*php*/
+.php_box {
+    width: 230px;
+    height: 100px;
+    margin: 200px auto;
+    font-family: "Arial";
+    font-size: 14px;
+    text-align: center;
+    border: 4px solid #cccccc;
+    background-color: #fff;
+    border-radius: 6px;
+}
+.php_text {
+    margin-top: 20px;
+    line-height: 90%;
+    display: inline-block;
+}

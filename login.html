@@ -1,0 +1,42 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Login Romantic jewelry</title>
+    <link type="text/css" rel="stylesheet" href="css/login and register.css" />
+</head>
+<body>
+    <div class="login_box">
+        <div class="image">
+            <a href="index.html" class="image">
+                <img src="img/logo.jpg" /></a>
+        </div>
+        <div class="login_dl">
+                <p class="login_tx">Subscribe to the Romantic jewelry newsletter!</p>
+                <div class="login_sr">
+                    <p class="login_p">User ID</p>
+                    <div class="login_textbox" id="IDdiv">
+                        <input type="text" class="login_text" value="" id="uid" placeholder="Please enter your User ID" onkeyup="LoginIDNorm(this.id)"/>
+                    </div>
+                </div>
+                <div class="login_sr">
+                    <p class="login_p">Password</p>
+                    <div class="login_textbox" id="PWdiv">
+                        <input type="password" class="login_text" value="" id="pwd" placeholder="Please enter your Password" onkeyup="LoginPwdNorm(this.id)"/>
+                    </div>
+                </div>
+                <div class="login_lg">
+                    <a href="index.html"><input class="login_btn" type="submit" id="button" value="Log In" /></a>
+                </div>
+        </div>
+    </div>
+    <div class="sidebar">
+        <div class="sidebar_text">don't</div>
+        <div class="sidebar_text">have an</div>
+        <div class="sidebar_text">account?</div>
+        <input type="button" onclick="window.location.href = 'register.html'" class="sidebar_button" value="Register here">
+    </div>
+    <script type="text/javascript" src="js/login and register.js"></script>
+</body>
+</html>

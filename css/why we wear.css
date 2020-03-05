@@ -1,0 +1,165 @@
+@charset "utf-8";
+/* CSS Document */
+body,.header-1,ul,p,h2,.header-2{
+	margin:0;
+	padding:0;	
+}
+.text-center{
+	text-align:center;	
+}
+ul{
+	list-style:none;
+}
+.mb-1{margin-bottom: .625rem;}
+.clearfix:before,.clearfix:after{
+	content:"";
+	display:block;
+	clear:both;	
+}
+
+
+.header-1,.header-list li,.header-2,.button-1{
+	font-family:museo-sans,sans-serif;
+	font-weight:500;
+	line-height:1.2;
+}
+.header-1{
+	margin-top:15px;
+}
+.header-list li{
+	display:inline-block;
+	font-size:14px;
+	margin-right:20px;
+	margin-left:20px;
+	line-height:1.4;
+}
+.active{
+	color:#36beb3;	
+}
+
+
+
+
+
+
+.shopify-secting{
+	padding-top:60px;
+	padding-bottom:60px;
+}
+.story-text{
+	padding-bottom: 3.75rem;
+	padding-top: 3.75rem;	
+}
+.container{
+	margin-left:auto;
+	margin-right:auto;
+	max-width:1100px;	
+}
+.max-600 {
+    max-width: 600px;
+    max-width: 37.5rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+.header-2{
+	line-height:1.4;
+	font-size:2rem;
+	margin-bottom:1.25rem;	
+}
+.rte,.rte-text{
+	font-family:museo-sans,sans-serif;
+    line-height: 1.8;
+	color:#512B2B;	
+}
+.rte p{
+	font-size:1rem;	
+}
+.rte strong {
+    font-weight: 600;
+	font-size:1rem;	
+}
+
+
+
+.max-1100 {
+    max-width: 1100px;
+    max-width: 68.75rem;
+	height:308px;
+    margin-left: auto;
+    margin-right: auto;
+	padding-bottom: 3.25rem;
+}
+.col-table-1{
+	width: 50%;
+	float:left;
+}
+.col-table-1 img{
+	width:300px;
+	height:300px;	
+}
+.tablet-pl-1{
+	padding-right: 1.25rem;
+	padding-left: 1.25rem;
+	float:left;
+}
+.text{
+	font-size:0.85rem;
+}
+.link-1 {
+    transition: all .3s linear 0s;
+    display: inline-block;
+    color: #000;
+    text-decoration: none;
+    border-bottom: 2px solid;
+    border-color: #36BEB3;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+	font-size:0.75rem;
+	margin-top:25px;
+	padding-bottom:2px;
+}
+.link-1:hover{
+	border-color: #FAF7F2;	
+}
+.button-1{
+	transition: all .3s linear 0s;
+    display: inline-block;
+    padding: .5rem 1.5rem;
+    background-color: #36BEB3;
+    color: #fff;
+    cursor: pointer;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+	line-height: 1.4;
+	font-size:0.875rem;
+}
+.button-1:hover{
+	color:#000;
+	background-color:#FAF7F2;	
+}
+.mt-2 {
+    margin-top: 1.25rem;
+}
+.global-video-link {
+    display: block;
+    position: relative;
+}
+#shopify-section-image-text .max-1100 .re-img img{
+	margin-left:250px;	
+}
+
+
+.header-2{
+	font-size: 1.5rem;
+	font-family: museo-sans,sans-serif;
+    font-weight: 500;
+    line-height: 1.3;
+}
+.icon img{
+	padding-left:10px;
+	padding-right:10px;	
+}
+.whyweWear{
+	padding-top:50px;
+}
+

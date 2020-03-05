@@ -1,0 +1,97 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Register Romantic jewelry accound</title>
+    <link type="text/css" rel="stylesheet" href="css/login and register.css" />
+</head>
+<body>
+    <div class="login_box">
+        <div class="image">
+            <a href="index.html" class="image">
+                <img src="img/logo.jpg" /></a>
+        </div>
+        <div class="register_dl">
+                <p class="login_tx">Subscribe to the Romantic jewelry newsletter!</p>
+                <div class="login_sr">
+                    <p class="login_p">User ID</p>
+                    <div class="login_textbox">
+                        <input type="text" class="login_text" maxlength="8" name="userid" id="uid" placeholder="Password must be a combination of 4-8 letters and numbers" value="" onkeyup="IDNorm(this.id)" />
+                        <span id="userid_zs" class="login_zs"></span>
+                    </div>
+                </div>
+                <div class="login_sr">
+                    <p class="login_p">Password</p>
+                    <div class="login_textbox">
+                        <input type="password" class="login_text" maxlength="16" name="password" id="pwd1" placeholder="Password must be a combination of 8-16 letters and numbers" value="" onkeyup="PwdNorm(this.id)" />
+                        <span id="pwd1_zs" class="login_zs"></span>
+                    </div>
+                </div>
+                <div class="login_sr">
+                    <p class="login_p">Confirm Password</p>
+                    <div class="login_textbox">
+                        <input type="password" class="login_text" name="" id="pwd2" placeholder="Please enter your password again" value="" onkeyup="PwdValidate(this.id)" />
+                        <span id="pwd2_zs" class="login_zs"></span>
+                    </div>
+                </div>
+                <div class="login_sr">
+                    <p class="login_p">User Name</p>
+                    <div class="login_textbox">
+                        <input type="text" class="login_text" name="username" id="una" placeholder="How do we address you?" value="" onkeyup="NameNorm(this.id)" />
+                        <span id="una_zs" class="login_zs"></span>
+                    </div>
+                </div>
+                <p class="login_tx">The following are not required, But we want to know more about you</p>
+                <div class="login_sr">
+                    <p class="login_p">First Name</p>
+                    <div class="login_textbox">
+                        <input type="text" class="login_text" name="firstname" value="" />
+                    </div>
+                </div>
+                <div class="login_sr">
+                    <p class="login_p">Last Name</p>
+                    <div class="login_textbox">
+                        <input type="text" class="login_text" name="lastname" value="" />
+                    </div>
+                </div>
+                <div class="login_sr">
+                    <p class="login_p">Birthdate</p>
+                    <div class="login_textbox">
+                        <input type="text" class="login_birth_text" maxlength="2" size="2" value="" placeholder="MM" />/
+                        <input type="text" class="login_birth_text" maxlength="2" size="2" value="" placeholder="DD" />
+                    </div>
+                </div>
+                <div class="login_sr">
+                    <p class="login_p">Email</p>
+                    <div class="login_textbox">
+                        <input type="text" class="login_text" value="" />
+                    </div>
+                </div>
+                <div class="register_sm">
+	 <p>Marketing Permissions
+Wanderlust + Co will use the information you provide on this form to be in touch with you and to provide updates and marketing. Please confirm that you would like to hear from us:</p>
+
+
+<p>Yes, via Email</p>
+<p>You can change your mind at any time by clicking the unsubscribe link in the footer of any email you receive from us, or by contacting us at hello@wanderlustandco.com. We will treat your information with respect. For more information about our privacy practices please visit our website. By clicking below, you agree that we may process your information in accordance with these terms.</p>
+
+<p>GDPR</p>
+<p>We use Mailchimp as our marketing platform. By clicking below to subscribe, you acknowledge that your information will be transferred to Mailchimp for processing. Learn more about Mailchimp's privacy practices here.</p>
+                </div>
+                <div class="login_lg">
+                    <div class="login_btnbox">
+                        <a href="login.html"><input class="login_btn" type="submit" id="button" value="Register" /></a>
+                    </div>
+                </div>
+        </div>
+    </div>
+    <div class="sidebar">
+        <div class="sidebar_text">Already</div>
+        <div class="sidebar_text">have an</div>
+        <div class="sidebar_text">account?</div>
+        <input type="button" onclick="window.location.href='login.html'" class="sidebar_button" value="Log in here">
+    </div>
+    <script type="text/javascript" src="js/login and register.js"></script>
+</body>
+</html>
